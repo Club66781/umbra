@@ -1,22 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Umbra">
+      <UniqueIdentifier>{9eac1168-397b-4a34-a935-88b6562beb65}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Umbra\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Umbra\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Umbra\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Umbra\Source Files\Levels">
+      <UniqueIdentifier>{31889d96-edd8-400d-af9d-9673f0ed6a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Source Files\Actors">
+      <UniqueIdentifier>{c3644372-b636-410a-b8c3-64ccf8e267fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Header Files\Actors">
+      <UniqueIdentifier>{f3c900b3-e6b6-443c-85c2-d97782a23624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umbra\Header Files\Levels">
+      <UniqueIdentifier>{923cb8de-bb15-40b8-b96d-283d965f200e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9099984e-9ad4-4230-9be8-a982367171ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source Files">
+      <UniqueIdentifier>{d4a85d2d-de57-4f14-afe3-83e214b4763a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header Files">
+      <UniqueIdentifier>{51d6629a-90bb-4e70-9048-81add3dec0dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Umbra.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>Umbra\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Umbra\Applications.cpp">
+      <Filter>Umbra\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\GameInstance.cpp">
+      <Filter>Umbra\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Screen.cpp">
+      <Filter>Umbra\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Levels\Level.cpp">
+      <Filter>Umbra\Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Levels\LevelManager.cpp">
+      <Filter>Umbra\Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Actors\Actor.cpp">
+      <Filter>Umbra\Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Actors\ActorTransform.cpp">
+      <Filter>Umbra\Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Umbra\Actors\ActorWorld.cpp">
+      <Filter>Umbra\Source Files\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Umbra\Applications.h">
+      <Filter>Umbra\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\GameInstance.h">
+      <Filter>Umbra\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Screen.h">
+      <Filter>Umbra\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Actors\ActorTransform.h">
+      <Filter>Umbra\Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Actors\Actor.h">
+      <Filter>Umbra\Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Actors\ActorWorld.h">
+      <Filter>Umbra\Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Levels\Level.h">
+      <Filter>Umbra\Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Umbra\Levels\LevelManager.h">
+      <Filter>Umbra\Source Files\Actors</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
