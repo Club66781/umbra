@@ -39,9 +39,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Umbra\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Umbra\Applications.cpp">
       <Filter>Umbra\Source Files</Filter>
     </ClCompile>
@@ -65,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="Umbra\Actors\ActorWorld.cpp">
       <Filter>Umbra\Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
